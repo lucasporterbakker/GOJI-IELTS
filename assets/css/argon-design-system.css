@@ -12177,6 +12177,30 @@ a.btn-icon-only {
                 .show > .btn-github.dropdown-toggle:focus {
                   box-shadow: 0 0 0 0 rgba(67, 67, 67, 0.5); }
 
+                  .btn-meetup-4 {
+                    color: RGBA(51, 120, 234, 1.00);
+                    /* background-color: RGBA(228, 80, 99, 1.00); */
+                    /* border-color: RGBA(228, 80, 99, 1.00); */
+                    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
+                    .btn-github:hover {
+                      color: #fff;
+                      background-color: #0f0f0f;
+                      border-color: #090909; }
+                    .btn-github:focus, .btn-github.focus {
+                      box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(67, 67, 67, 0.5); }
+                    .btn-github.disabled, .btn-github:disabled {
+                      color: #fff;
+                      background-color: #222222;
+                      border-color: #222222; }
+                    .btn-github:not(:disabled):not(.disabled):active, .btn-github:not(:disabled):not(.disabled).active,
+                    .show > .btn-github.dropdown-toggle {
+                      color: #fff;
+                      background-color: #090909;
+                      border-color: #020202; }
+                      .btn-github:not(:disabled):not(.disabled):active:focus, .btn-github:not(:disabled):not(.disabled).active:focus,
+                      .show > .btn-github.dropdown-toggle:focus {
+                        box-shadow: 0 0 0 0 rgba(67, 67, 67, 0.5); }
+
 .btn-instagram {
         color: RGBA(228, 80, 99, 1.00);
         /* background-color: RGBA(228, 80, 99, 1.00); */
@@ -15254,7 +15278,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .headroom--not-top {
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: #172b4d !important;
+  background-color: #5DA5AA !important;
   box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1); }
 
 .btn.btn-facebook {
@@ -15946,9 +15970,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   opacity: .5; }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link {
-  color: #5e72e4; }
+  color: #2c2c2c; }
   .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-    background-color: #5e72e4;
+    background-color: #5DA5AA;
     color: #fff; }
 
 .nav-pills.nav-pills-info .nav-item .nav-link {
@@ -16424,7 +16448,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   position: absolute;
   z-index: 99; }
   .navbar.navbar-main .dropdown-menu-footer {
-    background-color: #F6F9FC;
+    background-color: #5DA5AA;
     padding: 20px 0; }
     .navbar.navbar-main .dropdown-menu-footer .dropdown-item {
       text-transform: uppercase;
@@ -16621,8 +16645,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     background-color: #172b4d;
     box-shadow: 13px 13px 50px -24px #172b4d; }
   .info.info-hover-primary:hover {
-    background-color: #5e72e4;
-    box-shadow: 13px 13px 50px -24px #5e72e4; }
+    background-color: #5DA5AA;
+    box-shadow: 13px 13px 50px -24px #5DA5AA; }
   .info.info-hover-info:hover {
     background-color: #11cdef;
     box-shadow: 13px 13px 50px -24px #11cdef; }
@@ -16674,7 +16698,7 @@ hr {
   border-radius: 3px;
   margin-left: 0; }
   hr.line-primary {
-    background-color: #5e72e4; }
+    background-color: #5DA5AA; }
   hr.line-info {
     background-color: #11cdef; }
   hr.line-success {
@@ -16715,7 +16739,7 @@ hr {
 
 .icon-actions > .like:hover,
 .icon-actions > .like.active {
-  color: #5e72e4; }
+  color: #5DA5AA; }
 
 .icon-actions-lg a {
   font-size: 1.25rem;
@@ -19188,9 +19212,9 @@ hr {
   transform: translateY(-100%); }
 
 .headroom--not-top {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  background-color: #172b4d !important;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  background-color: #5DA5AA !important;
   box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1); }
 
 .sections-page [class*="features-"],
@@ -19439,9 +19463,10 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../assets/img/photo.jpg") no-repeat center center fixed;
+  width:100%;
+  height:100%;
+  background-size: cover !important;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../assets/img/GOJI-IELTS-3.jpg") fixed;
   /* background-color: #2C2C2C; */
   opacity: .3;
   z-index: 1; }
@@ -20912,7 +20937,7 @@ header {
     .ct-example .nav-tabs-code .nav-link {
       font-size: .875rem; }
       .ct-example .nav-tabs-code .nav-link:active, .ct-example .nav-tabs-code .nav-link.active {
-        color: #5e72e4; }
+        color: #2c2c2c; }
 
 .icon-examples {
   margin-top: 1rem; }
@@ -21655,5 +21680,13 @@ pre > code.highlight {
   .scrollbar-inner .scroll-element.scroll-x {
     height: 3px;
     bottom: 0; }
+
+    .hover-button {
+      transition: all .1s ease-in-out;
+    }
+
+    .hover-button:hover {
+      transform: translateY(-.2rem);
+    }
 
 /*# sourceMappingURL=argon-design-system.css.map */
