@@ -19670,6 +19670,8 @@ header {
     padding: 0 15px; }
 
 .features-3 {
+  /* background-color: #5DA5AA; green */
+  /* background-color: RGBA(235, 205, 95, 1.00); orange */
   background-color: #172b4d; }
   .features-3 .info-title .badge {
     font-size: 10px;
