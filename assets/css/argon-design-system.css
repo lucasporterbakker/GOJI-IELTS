@@ -19467,6 +19467,22 @@ header {
   z-index: 1; }
 
 
+
+  @media (max-width: 767px) {
+    .header-4 .header-video .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* width:100%; */
+      height:100vh;
+      background-size: cover !important;
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../assets/img/GOJI-IELTS-3.jpg") fixed;
+      /* background-color: #2C2C2C; */
+      opacity: .3;
+      z-index: 1; }
+     }
+
+
   @font-face {
     font-family: 'CeraGR-Bold';
     src: url('../../assets/fonts/CeraGR-Bold.eot');
