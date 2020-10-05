@@ -18624,7 +18624,7 @@ header {
       height:100vh;
       overflow: hidden;
       background-size: cover !important;
-      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../assets/img/GOJI-IELTS-3.jpg") fixed;
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../assets/img/GOJI-IELTS-3.webp") fixed;
       /* background-color: #2C2C2C; */
       opacity: .88;
       z-index: 1; }
